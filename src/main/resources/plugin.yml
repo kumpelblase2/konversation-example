@@ -1,0 +1,9 @@
+name: KotlinTestPlugin
+main: de.eternalwings.bukkit.testplugin.TestPlugin
+version: 1.0
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.5.31
+commands:
+  test:
+    usage: /test
+    description: Does some testing stuff
